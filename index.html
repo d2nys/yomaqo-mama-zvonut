@@ -3,59 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>😎😋</title>
+    <title>Document</title>
     <style>
+        header,footer {
+            background-color: rgb(255, 0, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-area: 70px;
+        }
+        .nav {
+            display: flex;
+            gap: 50px;
+        }
         ul {
             list-style: none;
         }
-        a {
+        a { 
             text-decoration: none;
-            color: aliceblue;
+            color: aqua;
             font-size: 22px;
-            align-items: center;
+            transition: 2s;
         }
-        header {
-            background-color: tomato;
-            display: flex;
-            justify-content: space-around;
-            align-content: center;
+        a:hover {
+            color: red;
         }
-        .leto i arbaletu  {
-         display: flex;
-         gap: 70px;
+      h2,h1,p,img, .scill {
+            margin-left: 550px;
         }
-        .contax {
-            display: flex;
-         gap: 70px;
-        }
-        .telik{
-            color: blue;
-        }
-        .telegram {
-            color: blueviolet;
-        }
+        body
+        { margin:0;}
     </style>
 </head>
 <body>
-<header>
-    <a href="">
-        <img width="50"  src="загружено.jpeg" alt="">
-    </a>
+    
     <nav>
-        <ul class="leto i arbaletu ">
-            <li><a href="">новини</a></li>
-            <li><a href="">відгуки</a></li>
-            <li><a href="">контакти</a></li>
-        </ul>
-    </nav>
-<ul class="contax">
-    <li>
-    <a class="telegram"  target="_blank" href="https://t.me/beaming_drive">телеграм</a>
-    </li>
-    <li>
-        <a class="telik"   href="tel:+380 98 458 83 38" >телефон</a>
-        </li>
-</ul>
-</header>
-</body>
-</html>
+        <header>
+            <a href="">WebsiteLogo</a>
+            <nav>
+              <ul class="nav">
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+                <li><a href="about.html">About</a></li>
+              </ul>
+            </nav>
+            <ul>
+              <li><a href="tel:+380975643251">+380975643251</a></li>
+              <li>
+                <a href="https://t.me/beaming_drive" target="_blank">Telegram</a>
+              </li>
+            </ul>
+        </header>
